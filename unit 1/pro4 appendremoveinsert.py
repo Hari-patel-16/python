@@ -11,7 +11,7 @@ print("After insert():", languages)
 languages.remove("C++")
 print("After remove():", languages)
 
-# 3. append()
+# 3. append() s
 languages.append("PHP")
 print("After append():", languages)
 

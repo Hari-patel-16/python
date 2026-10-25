@@ -25,11 +25,12 @@ elif choice==3:
  print("Multiplication = ",multiplication(num1,num2))
 
 elif choice==4:
- if (num2 != 0):
-  print("Division =",division(num1, num2))
 
- else:
-  print("Can not divide by zero")
+    if (num2 != 0):
+      print("Division =",division(num1, num2))
+
+    else:
+      print("Can not divide by zero")
 
 else:
   print("Invalid Choice")
